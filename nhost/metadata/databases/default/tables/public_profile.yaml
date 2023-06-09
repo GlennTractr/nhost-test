@@ -1,3 +1,11 @@
 table:
   name: profile
   schema: public
+insert_permissions:
+  - role: user
+    permission:
+      check: {}
+      columns:
+        - field1
+        - id
+        - user
