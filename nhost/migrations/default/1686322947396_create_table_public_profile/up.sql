@@ -1,0 +1,1 @@
+CREATE TABLE public.profile ("user" uuid NOT NULL, field1 text NOT NULL, id uuid DEFAULT gen_random_uuid() UNIQUE NOT NULL, PRIMARY KEY ("user"), FOREIGN KEY ("user") REFERENCES auth.users (id) ON UPDATE RESTRICT ON DELETE RESTRICT);
