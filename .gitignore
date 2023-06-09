@@ -2,3 +2,5 @@
 .secrets
 
 .nhost
+
+functions/node_modules
